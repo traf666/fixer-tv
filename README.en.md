@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#-support-the-project"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Support_the_project-F5B700?style=for-the-badge" alt="❤️ Support the project"></a>
+  <a href="#donate"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Support_the_project-F5B700?style=for-the-badge" alt="❤️ Support the project"></a>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
   <a href="#-features">Features</a> •
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-installation">Installation</a> •
-  <a href="#-support-the-project">Support</a>
+  <a href="#donate">Support</a>
 </p>
 
 > [!NOTE]
@@ -88,6 +88,8 @@ bookmarks — all controlled with the remote. No registration needed.
 
 **Updates:** Settings → About → App update. The app downloads the new version from this page and checks the file
 signature and checksum before installing.
+
+<a id="donate"></a>
 
 ## ❤️ Support the project
 
