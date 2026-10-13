@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="#donate"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Support_the_project-F5B700?style=for-the-badge" alt="❤️ Support the project"></a>
+  <a href="#donate"><img src="images/donate-en.png" width="370" alt="❤️ Support the project"></a>
 </p>
 
 <p align="center">
@@ -96,19 +96,17 @@ signature and checksum before installing.
 
 Fixer TV is a free app without ads. If you like it and want to help its development, you can make a voluntary donation
 in any convenient way below. A donation unlocks nothing and changes nothing in the app: every feature is equally open to
-everyone. The same QR codes are in the app: Settings → Support the project.
+everyone. Pick a wallet — a page with one QR code and the address will open. The same wallets are in the app: Settings → Support the project.
 
 > [!WARNING]
-> Send USDT **only in the network shown under the QR code** — a transfer in another network will not arrive.
+> Send USDT **only in the network shown on the wallet button** — a transfer in another network will not arrive.
 
-<table>
-<tr>
-<td align="center" width="25%"><img src="images/usdt-trc20.png" width="160" alt="QR USDT · TRC20 network (Tron)"><br><b>USDT · TRC20 network (Tron)</b><br><sub><code>TDfBBum4wU2yUYwW8zCurYjTNu37vxm91i</code></sub></td>
-<td align="center" width="25%"><img src="images/usdt-ton.png" width="160" alt="QR USDT · TON network"><br><b>USDT · TON network</b><br><sub><code>EQAmyMd-kT1l2GrecfN4nrw50BN8F7tG1pF5ENjXyGf_qwaf</code></sub></td>
-<td align="center" width="25%"><img src="images/usdt-polygon.png" width="160" alt="QR USDT · Polygon network"><br><b>USDT · Polygon network</b><br><sub><code>0x4e85cf9793001cfece9f404fa72132e5967fdaf5</code></sub></td>
-<td align="center" width="25%"><img src="images/usdt-bep20.png" width="160" alt="QR USDT · BEP20 network (BNB Smart Chain)"><br><b>USDT · BEP20 network (BNB Smart Chain)</b><br><sub><code>0xe6b2df3402e26945925d8a5e23ea47f746d6de6e</code></sub></td>
-</tr>
-</table>
+<p align="center">
+  <a href="donate/en/trc20.md"><img src="images/btn-trc20-en.png" width="300" alt="USDT trc20"></a>
+  <a href="donate/en/ton.md"><img src="images/btn-ton-en.png" width="300" alt="USDT ton"></a><br>
+  <a href="donate/en/polygon.md"><img src="images/btn-polygon-en.png" width="300" alt="USDT polygon"></a>
+  <a href="donate/en/bep20.md"><img src="images/btn-bep20-en.png" width="300" alt="USDT bep20"></a><br>
+</p>
 
 ## ⚠️ Important
 
