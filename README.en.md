@@ -1,19 +1,14 @@
 <p align="center">
-  <a href="README.md"><img src="images/lang-ru.png" width="240" alt="Русский"></a>
+  <a href="README.md"><img src="images/lang-ru.png" width="120" alt="Русский"></a>
   &nbsp;&nbsp;
-  <a href="README.en.md"><img src="images/lang-en.png" width="240" alt="English"></a>
+  <a href="README.en.md"><img src="images/lang-en.png" width="120" alt="English"></a>
 </p>
 
 <p align="center">
-  <img src="images/icon.png" width="120" alt="Fixer TV">
+  <img src="images/banner-en.png" width="100%" alt="Fixer TV">
 </p>
 
-<h1 align="center">Fixer TV</h1>
-
-<p align="center">
-  <b>Movies, series, cartoons and anime on your TV — free and without ads</b><br>
-  Решала ТВ · an app for Android TV and TV boxes
-</p>
+<p align="center">Решала ТВ · an app for Android TV and TV boxes</p>
 
 <p align="center">
   <a href="#donate"><img src="images/donate-en.png" width="370" alt="❤️ Support the project"></a>
