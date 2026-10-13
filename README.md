@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="docs/icon.png" width="120" alt="Решала ТВ">
+  <a href="README.md"><img src="https://img.shields.io/badge/-%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-D52B1E?style=for-the-badge" alt="🇷🇺 Русский"></a>
+  <a href="README.en.md"><img src="https://img.shields.io/badge/-%F0%9F%87%AC%F0%9F%87%A7%20English-0A3161?style=for-the-badge" alt="🇬🇧 English"></a>
+</p>
+
+<p align="center">
+  <img src="images/icon.png" width="120" alt="Решала ТВ">
 </p>
 
 <h1 align="center">Решала ТВ</h1>
@@ -25,8 +30,7 @@
   <a href="#-возможности">Возможности</a> •
   <a href="#-снимки-экрана">Снимки экрана</a> •
   <a href="#-установка">Установка</a> •
-  <a href="#-поддержать-проект">Поддержать</a> •
-  <a href="#english">English</a>
+  <a href="#-поддержать-проект">Поддержать</a>
 </p>
 
 > [!NOTE]
@@ -62,9 +66,9 @@
 ## 🖼 Снимки экрана
 
 <p align="center">
-  <img src="docs/glavnaya.jpg" width="32%" alt="Главная">
-  <img src="docs/kartochka.jpg" width="32%" alt="Карточка">
-  <img src="docs/serii.jpg" width="32%" alt="Серии">
+  <img src="images/glavnaya.jpg" width="32%" alt="Главная">
+  <img src="images/kartochka.jpg" width="32%" alt="Карточка">
+  <img src="images/serii.jpg" width="32%" alt="Серии">
 </p>
 
 ## 📥 Установка
@@ -93,31 +97,3 @@
 
 Постеры, описания и рейтинги — [TMDB](https://www.themoviedb.org/).
 This product uses the TMDB API but is not endorsed or certified by TMDB.
-
----
-
-<a id="english"></a>
-<details>
-<summary><b>🇬🇧 English</b></summary>
-
-### Fixer TV
-
-**Movies, series, cartoons and anime on your TV — free and without ads.**
-Fixer TV brings video from several sources into one remote-friendly app for Android TV. No registration needed.
-
-- **Compatibility:** Android 7.0+ — Android TV, Google TV, TV boxes
-- **Architecture:** `arm64-v8a` (64-bit) and `armeabi-v7a` (32-bit)
-- **Languages:** Russian and English
-
-**Features:** catalog with filters (posters, descriptions and ratings from TMDB) · search · several video sources with
-automatic fallback · seasons, episodes and voice-overs · Continue watching, Bookmarks, New episodes · downloads for offline
-viewing · torrents · kids mode with PIN · web panel on your phone · backup and restore · several accounts · signed
-self-updates.
-
-**Install:** pick the file for your device (64-bit for most modern boxes, 32-bit for Mi Box, sticks and older models),
-copy it to the TV (Downloader, Send Files to TV or a USB drive), open it, allow unknown sources if asked and accept the
-license on first launch. Updates: Settings → About → App update.
-
-**Support the project:** the app is free and ad-free. Wallet QR codes are in the app: Settings → Support the project.
-
-</details>
