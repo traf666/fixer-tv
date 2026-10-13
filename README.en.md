@@ -11,7 +11,7 @@
 <p align="center">Решала ТВ · an app for Android TV and TV boxes</p>
 
 <p align="center">
-  <a href="#donate"><img src="images/donate-en.png" width="370" alt="❤️ Support the project"></a>
+  <a href="#donate"><img src="images/donate-en.png" width="580" alt="❤️ Support the project"></a>
 </p>
 
 <p align="center">

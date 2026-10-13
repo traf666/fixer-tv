@@ -11,7 +11,7 @@
 <p align="center">Fixer TV · программа для Android TV и ТВ-приставок</p>
 
 <p align="center">
-  <a href="#donate"><img src="images/donate-ru.png" width="360" alt="❤️ Поддержать проект"></a>
+  <a href="#donate"><img src="images/donate-ru.png" width="560" alt="❤️ Поддержать проект"></a>
 </p>
 
 <p align="center">
