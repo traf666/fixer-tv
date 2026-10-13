@@ -1,74 +1,123 @@
-# Fixer TV (Решала ТВ)
+<p align="center">
+  <img src="docs/icon.png" width="120" alt="Решала ТВ">
+</p>
 
-**Бесплатная программа для Android TV: фильмы, сериалы, мультфильмы и аниме в одном месте — без рекламы.**
+<h1 align="center">Решала ТВ</h1>
 
-[Поддержать проект](#поддержать-проект) · [Скачать](#скачать) · [Установка](#установка) · [Возможности](#возможности) · [English](#english)
+<p align="center">
+  <b>Фильмы, сериалы, мультфильмы и аниме на телевизоре — бесплатно и без рекламы</b><br>
+  Fixer TV · программа для Android TV и ТВ-приставок
+</p>
 
-> Первый выпуск готовится. Кнопки «Скачать» заработают в день выпуска.
+<p align="center">
+  <img src="https://img.shields.io/badge/Android_TV-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android TV 7.0+">
+  <img src="https://img.shields.io/badge/arm64--v8a_%7C_armeabi--v7a-555" alt="arm64-v8a | armeabi-v7a">
+  <img src="https://img.shields.io/badge/%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0-%D0%BD%D0%B5%D1%82-brightgreen" alt="рекламы нет">
+  <img src="https://img.shields.io/badge/%D1%86%D0%B5%D0%BD%D0%B0-%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-blue" alt="бесплатно">
+</p>
 
-## Скачать
+<p align="center">
+  <a href="https://github.com/traf666/fixer-tv/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-64_%D0%B1%D0%B8%D1%82%D0%B0-4C8BF5?style=for-the-badge&logo=android&logoColor=white" alt="Скачать — 64 бита"></a>
+  <a href="https://github.com/traf666/fixer-tv/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-32_%D0%B1%D0%B8%D1%82%D0%B0-4C8BF5?style=for-the-badge&logo=android&logoColor=white" alt="Скачать — 32 бита"></a>
+</p>
 
-- **[Для 64-битных приставок (arm64-v8a)](https://github.com/traf666/fixer-tv/releases/latest)**
-- **[Для 32-битных приставок (armeabi-v7a)](https://github.com/traf666/fixer-tv/releases/latest)**
+<p align="center">
+  <a href="#-возможности">Возможности</a> •
+  <a href="#-снимки-экрана">Снимки экрана</a> •
+  <a href="#-установка">Установка</a> •
+  <a href="#-поддержать-проект">Поддержать</a> •
+  <a href="#english">English</a>
+</p>
 
-Не знаете разрядность — поставьте сначала 64-битную. Если Android скажет, что программа не подходит, поставьте 32-битную.
-Нужен Android 7 или новее.
+> [!NOTE]
+> Первый выпуск готовится — кнопки «Скачать» заработают в день выпуска.
 
-## Установка
+## 📺 О программе
 
-1. Скачайте файл на приставку: программой Downloader, через «Отправить файлы на ТВ» с телефона или с флешки.
-2. Откройте файл и разрешите установку из неизвестных источников, если Android попросит.
-3. При первом запуске прочитайте лицензионное соглашение и нажмите «Принимаю».
+**Решала ТВ** собирает кино из разных источников в одну удобную программу для телевизора. Каталог, поиск, серии,
+озвучки и закладки — всё управляется пультом. Регистрация не нужна.
 
-Дальше программа обновляется сама: «Настройки → О программе → Обновление программы». Перед установкой она проверяет подпись
-файла версии, контрольную сумму и подпись самой программы — подменить обновление нельзя.
+| | |
+|---|---|
+| **Совместимость** | Android 7.0 и новее — Android TV, Google TV, ТВ-приставки |
+| **Архитектура** | `arm64-v8a` (64 бита) и `armeabi-v7a` (32 бита) |
+| **Язык** | русский и английский |
+| **Цена** | бесплатно, без рекламы, все возможности открыты всем |
 
-## Возможности
+## ✨ Возможности
 
-- **Каталог** — новинки и разделы «Фильмы», «Сериалы», «Мультфильмы», «Аниме»; фильтр и порядок; описания, постеры и рейтинги из TMDB.
-- **Поиск** — по названию.
-- **Карточка** — описание, серии, трейлер, оценка, закладки, скачивание.
-- **Несколько источников видео** — список с качеством и числом озвучек; если видео не идёт, программа сама пробует следующий источник.
-- **Серии и озвучки** — сезоны, порядок серий «с начала / с конца / по дате», отметки просмотренного.
-- **Досмотреть, Закладки, Обновления** — где остановились, свои папки закладок, новые серии ваших сериалов.
-- **Загрузки** — фильм или серию можно скачать и смотреть без интернета.
-- **Торренты** — раздачи с трекеров прямо в карточке.
-- **Детский режим** с PIN-кодом, скрытие стран.
-- **Веб-панель** — настройки и журнал с телефона в домашней сети.
-- **Бэкап и восстановление** — история, закладки и настройки в папку или на флешку.
-- **Несколько учётных записей** — у каждой свои настройки.
-- **Русский и английский** язык, темы оформления.
-- Если сайт или источник не открывается напрямую, программа сама идёт к нему другим путём.
+- 🎬 **Каталог** — новинки, фильмы, сериалы, мультфильмы и аниме; фильтры и сортировка; постеры, описания и рейтинги.
+- 🔎 **Поиск** по названию.
+- 🔀 **Несколько источников видео** — видно качество и число озвучек; если видео не запускается, программа сама переходит к следующему источнику.
+- 📂 **Сезоны, серии и озвучки** — сортировка серий, отметки просмотренного.
+- ⏯️ **Досмотреть, Закладки, Обновления** — продолжить с того же места, свои папки закладок, новые серии ваших сериалов.
+- ⬇️ **Загрузки** — скачать фильм или серию и смотреть без интернета.
+- 🧲 **Торренты** — раздачи прямо в карточке фильма.
+- 🧒 **Детский режим** с PIN-кодом и скрытие стран.
+- 📱 **Веб-панель** — настройки с телефона в домашней сети.
+- 💾 **Бэкап** истории, закладок и настроек — в папку или на флешку.
+- 👥 **Несколько учётных записей**, у каждой свои настройки.
+- 🔄 **Обновляется сама** — каждое обновление проверяется по подписи, подменить его нельзя.
 
-## Поддержать проект
+## 🖼 Снимки экрана
 
-Программа бесплатная и без рекламы, все возможности одинаковы для всех. Если хотите помочь — QR-коды кошельков есть в самой
-программе: «Настройки → Поддержать проект».
+<p align="center">
+  <img src="docs/glavnaya.jpg" width="32%" alt="Главная">
+  <img src="docs/kartochka.jpg" width="32%" alt="Карточка">
+  <img src="docs/serii.jpg" width="32%" alt="Серии">
+</p>
 
-## Лицензия
+## 📥 Установка
 
-Простая неисключительная лицензия, безвозмездно. Полный текст — в программе («Настройки → О программе → Лицензионное соглашение»).
-Программа ничего не хранит и не размещает: она показывает то, что доступно на сторонних сайтах и сервисах.
-Описания, постеры и рейтинги — [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB.
+1. Выберите файл под приставку: **64 бита** — большинство современных приставок, **32 бита** — Mi Box, стики и старые модели.
+   Не уверены — ставьте 64 бита; если Android ответит, что программа не подходит, берите 32 бита.
+2. Перенесите файл на приставку любым удобным способом:
+   - программой **Downloader** прямо на телевизоре;
+   - с телефона программой **Send Files to TV**;
+   - с флешки.
+3. Откройте файл и разрешите установку из неизвестных источников, если Android спросит.
+4. При первом запуске примите лицензионное соглашение — и можно смотреть.
+
+**Обновления:** «Настройки → О программе → Обновление программы». Программа скачивает новую версию с этой страницы и
+перед установкой проверяет подпись файла и контрольную сумму.
+
+## ❤️ Поддержать проект
+
+Программа бесплатная и останется такой. Если она вам пригодилась и хочется сказать спасибо — QR-коды кошельков есть
+в самой программе: **«Настройки → Поддержать проект»**.
+
+## ⚠️ Важно
+
+Программа ничего не хранит и не размещает: она показывает то, что доступно на сторонних сайтах и сервисах. За содержимое
+отвечают их владельцы. Полный текст лицензии — в программе: «Настройки → О программе → Лицензионное соглашение».
+
+Постеры, описания и рейтинги — [TMDB](https://www.themoviedb.org/).
+This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ---
 
-## English
+<a id="english"></a>
+<details>
+<summary><b>🇬🇧 English</b></summary>
 
-**Free Android TV app: movies, series, cartoons and anime in one place — no ads.**
+### Fixer TV
 
-> The first release is being prepared. Download links will work on release day.
+**Movies, series, cartoons and anime on your TV — free and without ads.**
+Fixer TV brings video from several sources into one remote-friendly app for Android TV. No registration needed.
 
-**Download:** [64-bit (arm64-v8a)](https://github.com/traf666/fixer-tv/releases/latest) · [32-bit (armeabi-v7a)](https://github.com/traf666/fixer-tv/releases/latest).
-Not sure? Try the 64-bit file first; if Android says the app is not compatible, install the 32-bit one. Android 7 or newer.
+- **Compatibility:** Android 7.0+ — Android TV, Google TV, TV boxes
+- **Architecture:** `arm64-v8a` (64-bit) and `armeabi-v7a` (32-bit)
+- **Languages:** Russian and English
 
-**Install:** download the file to your TV box (Downloader app, “Send files to TV” from a phone, or a USB drive), open it,
-allow installing from unknown sources if asked, and accept the license on first launch. After that the app updates itself
-(Settings → About → App update) and checks signatures before installing.
+**Features:** catalog with filters (posters, descriptions and ratings from TMDB) · search · several video sources with
+automatic fallback · seasons, episodes and voice-overs · Continue watching, Bookmarks, New episodes · downloads for offline
+viewing · torrents · kids mode with PIN · web panel on your phone · backup and restore · several accounts · signed
+self-updates.
 
-**Features:** catalog with filters (descriptions, posters and ratings from TMDB) · search · several video sources with quality
-info and automatic fallback · seasons, episodes, voice-overs · Continue watching, Bookmarks, New episodes · downloads for offline
-viewing · torrents · kids mode with PIN · web panel on your phone · backup and restore · several accounts · Russian and English,
-themes.
+**Install:** pick the file for your device (64-bit for most modern boxes, 32-bit for Mi Box, sticks and older models),
+copy it to the TV (Downloader, Send Files to TV or a USB drive), open it, allow unknown sources if asked and accept the
+license on first launch. Updates: Settings → About → App update.
 
 **Support the project:** the app is free and ad-free. Wallet QR codes are in the app: Settings → Support the project.
+
+</details>
