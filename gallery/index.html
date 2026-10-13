@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Решала ТВ · Fixer TV — снимки экрана</title>
+<style>
+  :root { --bg:#0f141b; --fg:#e8edf3; --mut:#9aa7b4; --acc:#4c8bf5; --gold:#f5b700; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  header { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; padding:16px; max-width:1400px; margin:0 auto; }
+  header h1 { margin:0; font-size:22px; }
+  .lang a, .back { color:var(--fg); text-decoration:none; padding:8px 14px; border:2px solid #2b3644; border-radius:10px; margin-left:6px; font-weight:600; }
+  .lang a.on { border-color:var(--acc); background:#1b2a44; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; padding:0 16px 32px; max-width:1400px; margin:0 auto; }
+  .grid figure { margin:0; background:#161d27; border-radius:12px; overflow:hidden; cursor:zoom-in; }
+  .grid img { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; }
+  .grid figcaption { padding:10px 12px; font-size:14px; color:var(--mut); }
+  .grid figcaption b { color:var(--fg); display:block; font-size:15px; }
+  #view { position:fixed; inset:0; background:rgba(5,8,12,.96); display:none; flex-direction:column; align-items:center; justify-content:center; z-index:10; touch-action:pan-y; }
+  #view.on { display:flex; }
+  #view img { max-width:96vw; max-height:80vh; border-radius:8px; }
+  #cap { margin-top:12px; text-align:center; max-width:900px; padding:0 16px; }
+  #cap b { display:block; font-size:18px; } #cap span { color:var(--mut); font-size:14px; }
+  .nav { position:fixed; top:50%; transform:translateY(-50%); background:rgba(255,255,255,.08); border:0; color:#fff; font-size:40px; width:64px; height:96px; border-radius:12px; cursor:pointer; }
+  .nav:hover { background:rgba(255,255,255,.18); } #prev { left:12px; } #next { right:12px; }
+  #close { position:fixed; top:12px; right:16px; background:none; border:0; color:#fff; font-size:34px; cursor:pointer; }
+  #num { position:fixed; top:18px; left:16px; color:var(--mut); }
+  @media (max-width:700px){ .nav { width:44px; height:72px; font-size:28px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title"></h1>
+  <div class="lang"><a id="lru" href="?lang=ru">🇷🇺 Русский</a><a id="len" href="?lang=en">🇬🇧 English</a><a class="back" id="back" href="https://github.com/traf666/fixer-tv"></a></div>
+</header>
+<div class="grid" id="grid"></div>
+<div id="view" role="dialog" aria-modal="true">
+  <span id="num"></span>
+  <button id="close" aria-label="close">✕</button>
+  <button class="nav" id="prev" aria-label="prev">‹</button>
+  <img id="big" alt="">
+  <div id="cap"><b></b><span></span></div>
+  <button class="nav" id="next" aria-label="next">›</button>
+</div>
+<script>
+// Список снимков: shots.json рядом (file — имя в ../images, ru/en — подпись и где найти в программе).
+const en = new URLSearchParams(location.search).get('lang') === 'en';
+document.documentElement.lang = en ? 'en' : 'ru';
+document.getElementById(en ? 'len' : 'lru').classList.add('on');
+document.getElementById('title').textContent = en ? 'Fixer TV — screenshots' : 'Решала ТВ — снимки экрана';
+document.getElementById('back').textContent = en ? '← Back to the page' : '← На страницу программы';
+document.getElementById('back').href = 'https://github.com/traf666/fixer-tv' + (en ? '/blob/main/README.en.md' : '');
+let shots = [], i = 0;
+const view = document.getElementById('view'), big = document.getElementById('big');
+function show(n) {
+  i = (n + shots.length) % shots.length; const s = shots[i];
+  big.src = s.src; big.alt = s.title;
+  document.querySelector('#cap b').textContent = s.title;
+  document.querySelector('#cap span').textContent = s.where;
+  document.getElementById('num').textContent = (i + 1) + ' / ' + shots.length;
+  view.classList.add('on'); history.replaceState(null, '', '#' + (i + 1));
+}
+function hide() { view.classList.remove('on'); history.replaceState(null, '', location.pathname + location.search); }
+document.getElementById('prev').onclick = e => { e.stopPropagation(); show(i - 1); };
+document.getElementById('next').onclick = e => { e.stopPropagation(); show(i + 1); };
+document.getElementById('close').onclick = hide;
+view.onclick = e => { if (e.target === view) hide(); };
+addEventListener('keydown', e => {
+  if (!view.classList.contains('on')) return;
+  if (e.key === 'ArrowRight' || e.key === ' ') show(i + 1);
+  else if (e.key === 'ArrowLeft') show(i - 1);
+  else if (e.key === 'Escape') hide();
+});
+let x0 = null;
+view.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
+view.addEventListener('touchend', e => {
+  if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null;
+  if (Math.abs(dx) > 40) show(dx < 0 ? i + 1 : i - 1);
+});
+fetch('shots.json').then(r => r.json()).then(list => {
+  shots = list.map(s => ({ src: '../images/' + (en ? 'en/' : 'ru/') + s.file, title: en ? s.en : s.ru, where: en ? s.en_where : s.ru_where }));
+  const g = document.getElementById('grid');
+  shots.forEach((s, n) => {
+    const f = document.createElement('figure');
+    f.innerHTML = '<img loading="lazy"><figcaption><b></b><span></span></figcaption>';
+    f.querySelector('img').src = s.src; f.querySelector('img').alt = s.title;
+    f.querySelector('b').textContent = s.title; f.querySelector('span').textContent = s.where;
+    f.onclick = () => show(n); g.appendChild(f);
+  });
+  const h = parseInt(location.hash.slice(1)); if (h > 0 && h <= shots.length) show(h - 1);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+[
+ {
+  "file": "01-glavnaya.jpg",
+  "ru": "Главная",
+  "en": "Home",
+  "ru_where": "Главная",
+  "en_where": "Home"
+ },
+ {
+  "file": "01b-menyu.jpg",
+  "ru": "Меню",
+  "en": "Menu",
+  "ru_where": "Главная → «влево»",
+  "en_where": "Home → Left"
+ },
+ {
+  "file": "01c-filtr.jpg",
+  "ru": "Фильтр и порядок",
+  "en": "Filter and order",
+  "ru_where": "Главная → «Фильтр и порядок»",
+  "en_where": "Home → Filter and order"
+ },
+ {
+  "file": "01d-filmy.jpg",
+  "ru": "Фильмы",
+  "en": "Movies",
+  "ru_where": "Меню → Фильмы",
+  "en_where": "Menu → Movies"
+ },
+ {
+  "file": "02-poisk.jpg",
+  "ru": "Поиск",
+  "en": "Search",
+  "ru_where": "Меню → Поиск",
+  "en_where": "Menu → Search"
+ },
+ {
+  "file": "03-kartochka.jpg",
+  "ru": "Карточка фильма",
+  "en": "Movie page",
+  "ru_where": "Плитка → «ОК»",
+  "en_where": "Tile → OK"
+ },
+ {
+  "file": "03b-kartochka-seriala.jpg",
+  "ru": "Карточка сериала",
+  "en": "Series page",
+  "ru_where": "Плитка сериала → «ОК»",
+  "en_where": "Series tile → OK"
+ },
+ {
+  "file": "09-akter.jpg",
+  "ru": "Актёр",
+  "en": "Actor",
+  "ru_where": "Карточка → актёр",
+  "en_where": "Movie page → actor"
+ },
+ {
+  "file": "04-istochniki.jpg",
+  "ru": "Источники фильма",
+  "en": "Movie sources",
+  "ru_where": "Карточка → Источник",
+  "en_where": "Movie page → Source"
+ },
+ {
+  "file": "04b-istochniki-seriala.jpg",
+  "ru": "Источники сериала",
+  "en": "Series sources",
+  "ru_where": "Карточка сериала → Источник",
+  "en_where": "Series page → Source"
+ },
+ {
+  "file": "07-serii.jpg",
+  "ru": "Сезоны и серии",
+  "en": "Seasons and episodes",
+  "ru_where": "Карточка сериала → Серии",
+  "en_where": "Series page → Episodes"
+ },
+ {
+  "file": "07b-ozvuchki.jpg",
+  "ru": "Озвучки",
+  "en": "Voice-overs",
+  "ru_where": "Источники → источник сериала",
+  "en_where": "Sources → series source"
+ },
+ {
+  "file": "05-pleer.jpg",
+  "ru": "Плеер",
+  "en": "Player",
+  "ru_where": "Карточка → Продолжить → «вниз»",
+  "en_where": "Movie page → Continue → Down"
+ },
+ {
+  "file": "05b-pleer-serial.jpg",
+  "ru": "Плеер сериала",
+  "en": "Series player",
+  "ru_where": "Серия → «вниз»",
+  "en_where": "Episode → Down"
+ },
+ {
+  "file": "06-pleer-ozvuchka.jpg",
+  "ru": "Источник и озвучка в плеере",
+  "en": "Source and voice-over in the player",
+  "ru_where": "Плеер → Источник и озвучка",
+  "en_where": "Player → Source and voice-over"
+ },
+ {
+  "file": "10-dosmotret.jpg",
+  "ru": "Досмотреть",
+  "en": "Continue watching",
+  "ru_where": "Меню → Досмотреть",
+  "en_where": "Menu → Continue watching"
+ },
+ {
+  "file": "11-zakladki.jpg",
+  "ru": "Закладки",
+  "en": "Bookmarks",
+  "ru_where": "Меню → Закладки",
+  "en_where": "Menu → Bookmarks"
+ },
+ {
+  "file": "12-obnovleniya.jpg",
+  "ru": "Обновления",
+  "en": "Updates",
+  "ru_where": "Меню → Обновления",
+  "en_where": "Menu → Updates"
+ },
+ {
+  "file": "14-uchetnye-zapisi.jpg",
+  "ru": "Учётные записи",
+  "en": "Profiles",
+  "ru_where": "Меню → Учётные записи",
+  "en_where": "Menu → Profiles"
+ },
+ {
+  "file": "20-vneshnij-vid.jpg",
+  "ru": "Внешний вид",
+  "en": "Appearance",
+  "ru_where": "Настройки → Внешний вид",
+  "en_where": "Settings → Appearance"
+ },
+ {
+  "file": "21-temy.jpg",
+  "ru": "Темы",
+  "en": "Themes",
+  "ru_where": "Настройки → Внешний вид → Тема",
+  "en_where": "Settings → Appearance → Theme"
+ },
+ {
+  "file": "21b-svetlaya-tema.jpg",
+  "ru": "Светлая тема",
+  "en": "Light theme",
+  "ru_where": "Настройки → Внешний вид → Тема",
+  "en_where": "Settings → Appearance → Theme"
+ },
+ {
+  "file": "22-yazyk.jpg",
+  "ru": "Язык",
+  "en": "Language",
+  "ru_where": "Настройки → Внешний вид → «Язык · Language»",
+  "en_where": "Settings → Appearance → «Язык · Language»"
+ },
+ {
+  "file": "23-glavnaya-i-menyu.jpg",
+  "ru": "Главная и меню",
+  "en": "Home and menu",
+  "ru_where": "Настройки → Главная и меню",
+  "en_where": "Settings → Home and menu"
+ },
+ {
+  "file": "24-zastavka.jpg",
+  "ru": "Заставка при запуске",
+  "en": "Splash screen",
+  "ru_where": "Настройки → Заставка при запуске",
+  "en_where": "Settings → Splash screen"
+ },
+ {
+  "file": "25-pleer-nastrojki.jpg",
+  "ru": "Настройки плеера",
+  "en": "Player settings",
+  "ru_where": "Настройки → Плеер",
+  "en_where": "Settings → Player"
+ },
+ {
+  "file": "26-istochniki-nastrojki.jpg",
+  "ru": "Источники и их проверка",
+  "en": "Sources and their check",
+  "ru_where": "Настройки → Источники",
+  "en_where": "Settings → Sources"
+ },
+ {
+  "file": "27-detskij-rezhim.jpg",
+  "ru": "Детский режим",
+  "en": "Kids mode",
+  "ru_where": "Настройки → Детский режим",
+  "en_where": "Settings → Kids mode"
+ },
+ {
+  "file": "27b-novye-serii.jpg",
+  "ru": "Новые серии",
+  "en": "New episodes",
+  "ru_where": "Настройки → Новые серии",
+  "en_where": "Settings → New episodes"
+ },
+ {
+  "file": "28-skrytye-strany.jpg",
+  "ru": "Скрытые страны",
+  "en": "Hidden countries",
+  "ru_where": "Настройки → Скрытые страны",
+  "en_where": "Settings → Hidden countries"
+ },
+ {
+  "file": "29-zagruzki-nastrojki.jpg",
+  "ru": "Загрузки",
+  "en": "Downloads",
+  "ru_where": "Настройки → Загрузки",
+  "en_where": "Settings → Downloads"
+ },
+ {
+  "file": "29b-torrenty-nastrojki.jpg",
+  "ru": "Торренты",
+  "en": "Torrents",
+  "ru_where": "Настройки → Торренты",
+  "en_where": "Settings → Torrents"
+ },
+ {
+  "file": "31-set.jpg",
+  "ru": "Сеть",
+  "en": "Network",
+  "ru_where": "Настройки → Сеть",
+  "en_where": "Settings → Network"
+ },
+ {
+  "file": "32-veb-panel.jpg",
+  "ru": "Веб-панель",
+  "en": "Web panel",
+  "ru_where": "Настройки → Веб-панель",
+  "en_where": "Settings → Web panel"
+ },
+ {
+  "file": "33-bekap.jpg",
+  "ru": "Бэкап и восстановление",
+  "en": "Backup and restore",
+  "ru_where": "Настройки → Бэкап и восстановление",
+  "en_where": "Settings → Backup and restore"
+ },
+ {
+  "file": "30-podderzhat.jpg",
+  "ru": "Поддержать проект",
+  "en": "Support the project",
+  "ru_where": "Настройки → Поддержать проект",
+  "en_where": "Settings → Support the project"
+ },
+ {
+  "file": "30b-podderzhat-qr.jpg",
+  "ru": "Кошелёк с QR-кодом",
+  "en": "Wallet with a QR code",
+  "ru_where": "Поддержать проект → кошелёк",
+  "en_where": "Support the project → wallet"
+ },
+ {
+  "file": "35-o-programme.jpg",
+  "ru": "О программе",
+  "en": "About",
+  "ru_where": "Настройки → О программе",
+  "en_where": "Settings → About"
+ },
+ {
+  "file": "36-github.jpg",
+  "ru": "GitHub разработчика",
+  "en": "Developer's GitHub",
+  "ru_where": "Настройки → О программе → GitHub разработчика",
+  "en_where": "Settings → About → Developer's GitHub"
+ },
+ {
+  "file": "37-tmdb.jpg",
+  "ru": "TMDB",
+  "en": "TMDB",
+  "ru_where": "Настройки → О программе → TMDB",
+  "en_where": "Settings → About → TMDB"
+ },
+ {
+  "file": "38-licenziya.jpg",
+  "ru": "Лицензионное соглашение",
+  "en": "License agreement",
+  "ru_where": "Настройки → О программе → Лицензионное соглашение",
+  "en_where": "Settings → About → License agreement"
+ }
+]
