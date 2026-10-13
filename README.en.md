@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <p align="center">
   <a href="README.md"><img src="images/lang-ru.png" width="120" alt="Русский"></a>
   &nbsp;&nbsp;
@@ -109,8 +111,8 @@ Tap an item to open its description with a screenshot and the path in the app.
 ## 📖 In detail
 
 <a id="f-catalog"></a>
-
-### 🎬 Catalog
+<details>
+<summary><b>🎬 Catalog</b></summary>
 
 Home is a grid of poster tiles. The section menu is on the left; «Filter and order» picks the collection, type, country,
 year, genre and rating.
@@ -122,18 +124,26 @@ year, genre and rating.
   <img src="images/en/01c-filtr.jpg" width="49%" alt="Filter and order">
 </p>
 
-<a id="f-search"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🔎 Search
+</details>
+
+<a id="f-search"></a>
+<details>
+<summary><b>🔎 Search</b></summary>
 
 Suggestions as you type, recent queries and result tiles.
 **Where:** Menu → Search.
 
 <img src="images/en/02-poisk.jpg" width="100%" alt="Search">
 
-<a id="f-page"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🎞️ Movie page
+</details>
+
+<a id="f-page"></a>
+<details>
+<summary><b>🎞️ Movie page</b></summary>
 
 A large poster, description, rating, the «Continue» bar and buttons: download, torrents, source, bookmarks, trailer,
 rate. From the page — the actor page with their movies.
@@ -145,9 +155,13 @@ rate. From the page — the actor page with their movies.
   <img src="images/en/09-akter.jpg" width="49%" alt="Actor">
 </p>
 
-<a id="f-sources"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🔀 Several video sources
+</details>
+
+<a id="f-sources"></a>
+<details>
+<summary><b>🔀 Several video sources</b></summary>
 
 The «Sources» window shows where the movie is available, how many voice-overs and what quality. If a video does not
 start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now.
@@ -159,9 +173,13 @@ start or stops midway, the app continues in the next source from the same moment
   <img src="images/en/26-istochniki-nastrojki.jpg" width="49%" alt="Sources in settings">
 </p>
 
-<a id="f-episodes"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 📂 Seasons, episodes and voice-overs
+</details>
+
+<a id="f-episodes"></a>
+<details>
+<summary><b>📂 Seasons, episodes and voice-overs</b></summary>
 
 Seasons, episode order, how much is left to watch. Voice-overs — with their share of episodes and the latest episode.
 **Where:** Series page → Episodes · Sources → series source.
@@ -171,9 +189,13 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
   <img src="images/en/07b-ozvuchki.jpg" width="49%" alt="Voice-overs">
 </p>
 
-<a id="f-player"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### ▶️ Player
+</details>
+
+<a id="f-player"></a>
+<details>
+<summary><b>▶️ Player</b></summary>
 
 The player panel: source and voice-over, subtitles, speed, zoom, sleep timer, «ends at …», and for series — next episode
 and intro skip. Player settings have their own section.
@@ -185,9 +207,13 @@ and intro skip. Player settings have their own section.
   <img src="images/en/25-pleer-nastrojki.jpg" width="49%" alt="Player settings">
 </p>
 
-<a id="f-continue"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### ⏯️ Continue watching, Bookmarks, Updates
+</details>
+
+<a id="f-continue"></a>
+<details>
+<summary><b>⏯️ Continue watching, Bookmarks, Updates</b></summary>
 
 Resume where you stopped; bookmarks in your own folders; new episodes of bookmarked series.
 **Where:** Menu → Continue watching · Bookmarks · Updates.
@@ -198,27 +224,39 @@ Resume where you stopped; bookmarks in your own folders; new episodes of bookmar
   <img src="images/en/12-obnovleniya.jpg" width="49%" alt="Updates">
 </p>
 
-<a id="f-downloads"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### ⬇️ Downloads
+</details>
+
+<a id="f-downloads"></a>
+<details>
+<summary><b>⬇️ Downloads</b></summary>
 
 A movie or an episode is saved by the built-in downloader to the folder you choose, with space and speed limits.
 **Where:** Movie page → Download · Menu → Downloads · Settings → Downloads.
 
 <img src="images/en/29-zagruzki-nastrojki.jpg" width="100%" alt="Downloads">
 
-<a id="f-torrents"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🧲 Torrents
+</details>
+
+<a id="f-torrents"></a>
+<details>
+<summary><b>🧲 Torrents</b></summary>
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 **Where:** Movie page → Source → Torrents · Settings → Torrents.
 
 <img src="images/en/29b-torrenty-nastrojki.jpg" width="100%" alt="Torrents">
 
-<a id="f-kids"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🧒 Kids mode
+</details>
+
+<a id="f-kids"></a>
+<details>
+<summary><b>🧒 Kids mode</b></summary>
 
 The allowed age; the mode is protected with a PIN. Movies from chosen countries can be hidden.
 **Where:** Settings → Kids mode · Settings → Hidden countries.
@@ -228,18 +266,26 @@ The allowed age; the mode is protected with a PIN. Movies from chosen countries 
   <img src="images/en/28-skrytye-strany.jpg" width="49%" alt="Hidden countries">
 </p>
 
-<a id="f-profiles"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 👥 Profiles
+</details>
+
+<a id="f-profiles"></a>
+<details>
+<summary><b>👥 Profiles</b></summary>
 
 «Who is watching?» — each profile has its own settings.
 **Where:** Menu → Profiles.
 
 <img src="images/en/14-uchetnye-zapisi.jpg" width="100%" alt="Profiles">
 
-<a id="f-look"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🎨 Appearance
+</details>
+
+<a id="f-look"></a>
+<details>
+<summary><b>🎨 Appearance</b></summary>
 
 Theme (5 options, including a light one), highlight color, text size, number of columns, language, splash screen and
 what the menu shows.
@@ -254,9 +300,13 @@ what the menu shows.
   <img src="images/en/22-yazyk.jpg" width="49%" alt="Language">
 </p>
 
-<a id="f-panel"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 📱 Web panel
+</details>
+
+<a id="f-panel"></a>
+<details>
+<summary><b>📱 Web panel</b></summary>
 
 Point your phone camera at the QR code — the box panel opens: sign-in, all settings, the log and backups. Works on the
 home network.
@@ -264,18 +314,26 @@ home network.
 
 <img src="images/en/32-veb-panel.jpg" width="100%" alt="Web panel">
 
-<a id="f-backup"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 💾 Backup and restore
+</details>
+
+<a id="f-backup"></a>
+<details>
+<summary><b>💾 Backup and restore</b></summary>
 
 A copy of history, bookmarks and settings — by hand or automatically, to any folder or a USB drive; restore from there.
 **Where:** Settings → Backup and restore.
 
 <img src="images/en/33-bekap.jpg" width="100%" alt="Backup">
 
-<a id="f-update"></a>
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
-### 🔄 App update
+</details>
+
+<a id="f-update"></a>
+<details>
+<summary><b>🔄 App update</b></summary>
 
 The app downloads the new version from this page and checks the file signature and checksum before installing. The
 license, the GitHub link and TMDB details are here too.
@@ -283,10 +341,16 @@ license, the GitHub link and TMDB details are here too.
 
 <img src="images/en/35-o-programme.jpg" width="100%" alt="About">
 
+<p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
+
+</details>
+
 <p align="center">
   <a href="#features">↑ back to features</a> •
   <a href="https://traf666.github.io/fixer-tv/gallery/?lang=en">🖼 all screenshots</a>
 </p>
+
+<p align="right"><a href="#top">⬆️ back to top</a></p>
 
 <a id="install"></a>
 
@@ -305,6 +369,8 @@ license, the GitHub link and TMDB details are here too.
 
 **Updates:** Settings → About → App update. The app downloads the new version from this page and checks the file
 signature and checksum before installing.
+
+<p align="right"><a href="#top">⬆️ back to top</a></p>
 
 <a id="donate"></a>
 
@@ -331,3 +397,5 @@ responsible for the content. The full license text is in the app: Settings → A
 
 Posters, descriptions and ratings — [TMDB](https://www.themoviedb.org/).
 This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+<p align="right"><a href="#top">⬆️ back to top</a></p>

@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <p align="center">
   <a href="README.md"><img src="images/lang-ru.png" width="120" alt="Русский"></a>
   &nbsp;&nbsp;
@@ -107,8 +109,8 @@
 ## 📖 Подробно
 
 <a id="f-katalog"></a>
-
-### 🎬 Каталог
+<details>
+<summary><b>🎬 Каталог</b></summary>
 
 Главная — сетка плиток с постерами. Слева меню разделов; «Фильтр и порядок» выбирает подборку, тип, страну, год, жанр
 и рейтинг.
@@ -120,18 +122,26 @@
   <img src="images/ru/01c-filtr.jpg" width="49%" alt="Фильтр и порядок">
 </p>
 
-<a id="f-poisk"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🔎 Поиск
+</details>
+
+<a id="f-poisk"></a>
+<details>
+<summary><b>🔎 Поиск</b></summary>
 
 Подсказки по мере ввода, недавние запросы и плитки результатов.
 **Где:** Меню → Поиск.
 
 <img src="images/ru/02-poisk.jpg" width="100%" alt="Поиск">
 
-<a id="f-kartochka"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🎞️ Карточка фильма
+</details>
+
+<a id="f-kartochka"></a>
+<details>
+<summary><b>🎞️ Карточка фильма</b></summary>
 
 Крупный постер, описание, рейтинг, полоса «Продолжить» и кнопки: скачать, торренты, источник, закладки, трейлер,
 оценка. Из карточки — страница актёра с его фильмами.
@@ -143,9 +153,13 @@
   <img src="images/ru/09-akter.jpg" width="49%" alt="Актёр">
 </p>
 
-<a id="f-istochniki"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🔀 Несколько источников видео
+</details>
+
+<a id="f-istochniki"></a>
+<details>
+<summary><b>🔀 Несколько источников видео</b></summary>
 
 В окне «Источники» видно, где есть фильм, сколько озвучек и какое качество. Если видео не запускается или обрывается,
 программа сама продолжает в следующем источнике с того же места. В настройках — какие источники сейчас работают.
@@ -157,9 +171,13 @@
   <img src="images/ru/26-istochniki-nastrojki.jpg" width="49%" alt="Источники в настройках">
 </p>
 
-<a id="f-serii"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 📂 Сезоны, серии и озвучки
+</details>
+
+<a id="f-serii"></a>
+<details>
+<summary><b>📂 Сезоны, серии и озвучки</b></summary>
 
 Сезоны, порядок серий, сколько осталось досмотреть. Озвучки — с долей серий и последней вышедшей серией.
 **Где:** Карточка сериала → Серии · Источники → источник сериала.
@@ -169,9 +187,13 @@
   <img src="images/ru/07b-ozvuchki.jpg" width="49%" alt="Озвучки">
 </p>
 
-<a id="f-pleer"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### ▶️ Плеер
+</details>
+
+<a id="f-pleer"></a>
+<details>
+<summary><b>▶️ Плеер</b></summary>
 
 Панель плеера: источник и озвучка, субтитры, скорость, масштаб, таймер сна, «конец в …», у сериалов — следующая серия
 и пропуск заставки. Настройки плеера — отдельный раздел.
@@ -183,9 +205,13 @@
   <img src="images/ru/25-pleer-nastrojki.jpg" width="49%" alt="Настройки плеера">
 </p>
 
-<a id="f-dosmotret"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### ⏯️ Досмотреть, Закладки, Обновления
+</details>
+
+<a id="f-dosmotret"></a>
+<details>
+<summary><b>⏯️ Досмотреть, Закладки, Обновления</b></summary>
 
 Начатое — с того же места; закладки по своим папкам; новые серии сериалов из закладок.
 **Где:** Меню → Досмотреть · Закладки · Обновления.
@@ -196,27 +222,39 @@
   <img src="images/ru/12-obnovleniya.jpg" width="49%" alt="Обновления">
 </p>
 
-<a id="f-zagruzki"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### ⬇️ Загрузки
+</details>
+
+<a id="f-zagruzki"></a>
+<details>
+<summary><b>⬇️ Загрузки</b></summary>
 
 Фильм или серия скачиваются своей качалкой в выбранную папку, с пределом места и скорости.
 **Где:** Карточка → Скачать · Меню → Загрузки · Настройки → Загрузки.
 
 <img src="images/ru/29-zagruzki-nastrojki.jpg" width="100%" alt="Загрузки">
 
-<a id="f-torrenty"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🧲 Торренты
+</details>
+
+<a id="f-torrenty"></a>
+<details>
+<summary><b>🧲 Торренты</b></summary>
 
 Раздачи появляются строкой «Торренты» в окне «Источники». TorrServer встроен в программу и запускается сам.
 **Где:** Карточка → Источник → Торренты · Настройки → Торренты.
 
 <img src="images/ru/29b-torrenty-nastrojki.jpg" width="100%" alt="Торренты">
 
-<a id="f-deti"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🧒 Детский режим
+</details>
+
+<a id="f-deti"></a>
+<details>
+<summary><b>🧒 Детский режим</b></summary>
 
 Разрешённый возраст; режим защищён PIN-кодом. Можно скрыть фильмы отдельных стран.
 **Где:** Настройки → Детский режим · Настройки → Скрытые страны.
@@ -226,18 +264,26 @@
   <img src="images/ru/28-skrytye-strany.jpg" width="49%" alt="Скрытые страны">
 </p>
 
-<a id="f-uchetki"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 👥 Учётные записи
+</details>
+
+<a id="f-uchetki"></a>
+<details>
+<summary><b>👥 Учётные записи</b></summary>
 
 «Кто смотрит?» — у каждой учётной записи свои настройки.
 **Где:** Меню → Учётные записи.
 
 <img src="images/ru/14-uchetnye-zapisi.jpg" width="100%" alt="Учётные записи">
 
-<a id="f-vid"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🎨 Внешний вид
+</details>
+
+<a id="f-vid"></a>
+<details>
+<summary><b>🎨 Внешний вид</b></summary>
 
 Тема (5 вариантов, есть светлая), цвет выделения, размер текста, число колонок, язык, заставка при запуске,
 что показывать в меню.
@@ -252,9 +298,13 @@
   <img src="images/ru/22-yazyk.jpg" width="49%" alt="Язык">
 </p>
 
-<a id="f-panel"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 📱 Веб-панель
+</details>
+
+<a id="f-panel"></a>
+<details>
+<summary><b>📱 Веб-панель</b></summary>
 
 Наведите камеру телефона на QR-код — откроется панель приставки: вход, все настройки, журнал и бэкап. Работает в
 домашней сети.
@@ -262,18 +312,26 @@
 
 <img src="images/ru/32-veb-panel.jpg" width="100%" alt="Веб-панель">
 
-<a id="f-bekap"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 💾 Бэкап и восстановление
+</details>
+
+<a id="f-bekap"></a>
+<details>
+<summary><b>💾 Бэкап и восстановление</b></summary>
 
 Копия истории, закладок и настроек — вручную или автоматически, в любую папку или на флешку; восстановление оттуда же.
 **Где:** Настройки → Бэкап и восстановление.
 
 <img src="images/ru/33-bekap.jpg" width="100%" alt="Бэкап">
 
-<a id="f-obnovlenie"></a>
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
 
-### 🔄 Обновление программы
+</details>
+
+<a id="f-obnovlenie"></a>
+<details>
+<summary><b>🔄 Обновление программы</b></summary>
 
 Программа скачивает новую версию с этой страницы и перед установкой проверяет подпись файла и контрольную сумму.
 Здесь же — лицензия, ссылка на GitHub и сведения о TMDB.
@@ -281,10 +339,16 @@
 
 <img src="images/ru/35-o-programme.jpg" width="100%" alt="О программе">
 
+<p align="right"><a href="#features">↑ к возможностям</a> · <a href="#top">⬆️ наверх</a></p>
+
+</details>
+
 <p align="center">
   <a href="#features">↑ к возможностям</a> •
   <a href="https://traf666.github.io/fixer-tv/gallery/">🖼 все снимки экрана</a>
 </p>
+
+<p align="right"><a href="#top">⬆️ наверх</a></p>
 
 <a id="install"></a>
 
@@ -303,6 +367,8 @@
 
 **Обновления:** «Настройки → О программе → Обновление программы». Программа скачивает новую версию с этой страницы и
 перед установкой проверяет подпись файла и контрольную сумму.
+
+<p align="right"><a href="#top">⬆️ наверх</a></p>
 
 <a id="donate"></a>
 
@@ -329,3 +395,5 @@
 
 Постеры, описания и рейтинги — [TMDB](https://www.themoviedb.org/).
 This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+<p align="right"><a href="#top">⬆️ наверх</a></p>
