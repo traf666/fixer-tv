@@ -43,7 +43,7 @@ bookmarks — all controlled with the remote. No registration needed.
 
 | | |
 |---|---|
-| **Compatibility** | Android 7.0 or newer — Android TV, Google TV, TV boxes |
+| **Compatibility** | TVs and TV boxes with Android 7.0 or newer: Android TV, Google TV or plain Android |
 | **Architecture** | `arm64-v8a` (64-bit) and `armeabi-v7a` (32-bit) |
 | **Languages** | Russian and English |
 | **Price** | free, no ads, every feature open to everyone |
