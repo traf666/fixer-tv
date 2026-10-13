@@ -1,6 +1,7 @@
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/-%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-D52B1E?style=for-the-badge" alt="🇷🇺 Русский"></a>
-  <a href="README.en.md"><img src="https://img.shields.io/badge/-%F0%9F%87%AC%F0%9F%87%A7%20English-0A3161?style=for-the-badge" alt="🇬🇧 English"></a>
+  <a href="README.md"><img src="images/lang-ru.png" width="240" alt="Русский"></a>
+  &nbsp;&nbsp;
+  <a href="README.en.md"><img src="images/lang-en.png" width="240" alt="English"></a>
 </p>
 
 <p align="center">
