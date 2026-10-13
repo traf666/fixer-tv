@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+  <a href="#-поддержать-проект"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-F5B700?style=for-the-badge" alt="❤️ Поддержать проект"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Android_TV-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android TV 7.0+">
   <img src="https://img.shields.io/badge/arm64--v8a_%7C_armeabi--v7a-555" alt="arm64-v8a | armeabi-v7a">
   <img src="https://img.shields.io/badge/%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0-%D0%BD%D0%B5%D1%82-brightgreen" alt="рекламы нет">
@@ -87,8 +91,21 @@
 
 ## ❤️ Поддержать проект
 
-Программа бесплатная и останется такой. Если она вам пригодилась и хочется сказать спасибо — QR-коды кошельков есть
-в самой программе: **«Настройки → Поддержать проект»**.
+Решала ТВ — бесплатная программа без рекламы. Если она вам нравится и вы хотите помочь её развитию, можно сделать
+добровольное пожертвование любым удобным способом ниже. Пожертвование ничего не открывает и не меняет в программе:
+все возможности одинаково доступны всем. Те же QR-коды есть в программе: «Настройки → Поддержать проект».
+
+> [!WARNING]
+> USDT отправляйте **только в той сети, что указана под QR-кодом** — перевод в другой сети не дойдёт.
+
+<table>
+<tr>
+<td align="center" width="25%"><img src="images/usdt-trc20.png" width="160" alt="QR USDT · сеть TRC20 (Tron)"><br><b>USDT · сеть TRC20 (Tron)</b><br><sub><code>TDfBBum4wU2yUYwW8zCurYjTNu37vxm91i</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-ton.png" width="160" alt="QR USDT · сеть TON"><br><b>USDT · сеть TON</b><br><sub><code>EQAmyMd-kT1l2GrecfN4nrw50BN8F7tG1pF5ENjXyGf_qwaf</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-polygon.png" width="160" alt="QR USDT · сеть Polygon"><br><b>USDT · сеть Polygon</b><br><sub><code>0x4e85cf9793001cfece9f404fa72132e5967fdaf5</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-bep20.png" width="160" alt="QR USDT · сеть BEP20 (BNB Smart Chain)"><br><b>USDT · сеть BEP20 (BNB Smart Chain)</b><br><sub><code>0xe6b2df3402e26945925d8a5e23ea47f746d6de6e</code></sub></td>
+</tr>
+</table>
 
 ## ⚠️ Важно
 

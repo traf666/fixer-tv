@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+  <a href="#-support-the-project"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Support_the_project-F5B700?style=for-the-badge" alt="❤️ Support the project"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Android_TV-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android TV 7.0+">
   <img src="https://img.shields.io/badge/arm64--v8a_%7C_armeabi--v7a-555" alt="arm64-v8a | armeabi-v7a">
   <img src="https://img.shields.io/badge/ads-none-brightgreen" alt="no ads">
@@ -87,8 +91,21 @@ signature and checksum before installing.
 
 ## ❤️ Support the project
 
-The app is free and will stay free. If it is useful to you and you want to say thanks — wallet QR codes are in the app:
-**Settings → Support the project**.
+Fixer TV is a free app without ads. If you like it and want to help its development, you can make a voluntary donation
+in any convenient way below. A donation unlocks nothing and changes nothing in the app: every feature is equally open to
+everyone. The same QR codes are in the app: Settings → Support the project.
+
+> [!WARNING]
+> Send USDT **only in the network shown under the QR code** — a transfer in another network will not arrive.
+
+<table>
+<tr>
+<td align="center" width="25%"><img src="images/usdt-trc20.png" width="160" alt="QR USDT · TRC20 network (Tron)"><br><b>USDT · TRC20 network (Tron)</b><br><sub><code>TDfBBum4wU2yUYwW8zCurYjTNu37vxm91i</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-ton.png" width="160" alt="QR USDT · TON network"><br><b>USDT · TON network</b><br><sub><code>EQAmyMd-kT1l2GrecfN4nrw50BN8F7tG1pF5ENjXyGf_qwaf</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-polygon.png" width="160" alt="QR USDT · Polygon network"><br><b>USDT · Polygon network</b><br><sub><code>0x4e85cf9793001cfece9f404fa72132e5967fdaf5</code></sub></td>
+<td align="center" width="25%"><img src="images/usdt-bep20.png" width="160" alt="QR USDT · BEP20 network (BNB Smart Chain)"><br><b>USDT · BEP20 network (BNB Smart Chain)</b><br><sub><code>0xe6b2df3402e26945925d8a5e23ea47f746d6de6e</code></sub></td>
+</tr>
+</table>
 
 ## ⚠️ Important
 
