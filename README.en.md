@@ -17,10 +17,6 @@
 </p>
 
 <p align="center">
-  <a href="https://traf666.github.io/fixer-tv/?lang=en"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Easy--to--read_page-1F6FEB?style=for-the-badge" alt="🌐 Easy-to-read page"></a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Android_TV-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android TV 7.0+">
   <img src="https://img.shields.io/badge/arm64--v8a_%7C_armeabi--v7a-555" alt="arm64-v8a | armeabi-v7a">
   <img src="https://img.shields.io/badge/ads-none-brightgreen" alt="no ads">
