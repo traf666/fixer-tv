@@ -1,2 +1,5 @@
-# fixer-tv
-Fixer TV (Решала ТВ) — Android TV app releases
+# Fixer TV (Решала ТВ)
+
+Программа для Android TV. Первый выпуск — скоро.
+
+Android TV app. First release coming soon.
