@@ -70,6 +70,10 @@ and sit through their ads.
 - 📌 **Remembers everything you watched — in any source.** Season, episode, the minute you stopped and «watched» marks are
   kept on the TV box and tied to the movie, not to a site: start in one source, continue in another or in a torrent — from
   the same moment. A source closed or went paid — your history stays. Backup included.
+- 🔔 **Tells you about new episodes by itself.** The app checks series from your bookmarks, plus the ones you started or
+  finished, on its own — each one every hour. When a new episode is out and a source already has it with a voice-over, the
+  series appears in the «Updates» section of the app and in the «Updates» row on the Android TV home screen. Nothing to
+  look up or check by hand.
 - **Completely free.** No ads, no subscriptions, no paid tiers — everything is open to everyone.
 - **Switches sources by itself.** If a video does not start or stops midway, the app continues in the next source from
   the same moment. Nothing to pick by hand.
