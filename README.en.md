@@ -383,7 +383,7 @@ license, the GitHub link and TMDB details are here too.
 3. Open the file and allow installing from unknown sources if Android asks.
 4. On first launch, accept the license agreement and create a profile — and enjoy.
 
-**Questions and bugs** — in the app thread on 4PDA (will open on release day).
+**Questions and bugs** — in the app thread on 4PDA (opening soon).
 
 **Updates:** Settings → About → App update. The app downloads the new version from this page and checks the file
 signature and checksum before installing.
