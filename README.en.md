@@ -77,10 +77,13 @@ and sit through their ads.
 - **Completely free.** No ads, no subscriptions, no paid tiers — everything is open to everyone.
 - **Switches sources by itself.** If a video does not start or stops midway, the app continues in the next source from
   the same moment. Nothing to pick by hand.
-- **Torrents with no setup.** TorrServer is built in and starts by itself — no separate app to install.
+- **Torrents with no setup.** TorrServer is built in and starts by itself — no separate app to install. About 5 minutes
+  of video ahead are buffered on the device storage, sized by the file size and film length: seeking inside the buffer
+  is almost instant, and the buffer is deleted after watching.
 - **Control from your phone.** A web panel on the home network: sign-in, all settings, the log and backups — opened by a
   QR code on the screen.
-- **Kids mode with a PIN and several profiles**, each with its own settings.
+- 👨‍👩‍👧 **A profile for everyone in the family.** Each has its own watch history, bookmarks, new episodes and settings.
+  A kids profile has an allowed age, a parent PIN and a daily time limit.
 - **Protected updates.** Every release is signed: the app checks the signature and the checksum and will not install a
   replaced file.
 
@@ -99,8 +102,8 @@ Tap an item to open its description with a screenshot and the path in the app.
 - ⏯️ [**Continue watching, Bookmarks, Updates**](#f-continue) — resume where you stopped, your own folders, new episodes.
 - ⬇️ [**Downloads**](#f-downloads) — save a movie or an episode and watch offline.
 - 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, built-in TorrServer.
-- 🧒 [**Kids mode**](#f-kids) with a PIN and hidden countries.
-- 👥 [**Profiles**](#f-profiles) — each with its own settings.
+- 🧒 [**Kids mode**](#f-kids) with a PIN, kids profiles with a time limit, hidden countries.
+- 👥 [**Profiles**](#f-profiles) — for everyone in the family: own history, bookmarks and settings.
 - 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, text size, number of columns, language.
 - 📱 [**Web panel**](#f-panel) — settings from your phone on the home network.
 - 💾 [**Backup**](#f-backup) of history, bookmarks and settings — to a folder or a USB drive.
@@ -109,7 +112,7 @@ Tap an item to open its description with a screenshot and the path in the app.
 <a id="gallery"></a>
 
 <p align="center">
-  <a href="https://traf666.github.io/fixer-tv/gallery/?lang=en"><img src="https://img.shields.io/badge/%F0%9F%96%BC_All_screenshots-41_%C2%B7_swipe_through-F5B700?style=for-the-badge" alt="All screenshots — swipe through"></a>
+  <a href="https://traf666.github.io/fixer-tv/gallery/?lang=en"><img src="https://img.shields.io/badge/%F0%9F%96%BC_All_screenshots-45_%C2%B7_swipe_through-F5B700?style=for-the-badge" alt="All screenshots — swipe through"></a>
 </p>
 
 ## 📖 In detail
@@ -250,6 +253,7 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 <summary><b>🧲 Torrents</b></summary>
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
+About 5 minutes of video ahead are buffered on the device storage and deleted after watching.
 **Where:** Movie page → Source → Torrents · Settings → Torrents.
 
 <img src="images/en/29b-torrenty-nastrojki.jpg" width="100%" alt="Torrents">
@@ -263,11 +267,15 @@ Releases appear as the «Torrents» row in the «Sources» window. TorrServer is
 <summary><b>🧒 Kids mode</b></summary>
 
 The allowed age; the mode is protected with a PIN. Movies from chosen countries can be hidden.
-**Where:** Settings → Kids mode · Settings → Hidden countries.
+A kids profile always has kids mode on: time per day and allowed hours; a warning 5 minutes before the end, and only
+an adult with the PIN can extend the time or switch the profile.
+**Where:** Settings → Kids mode · Settings → Hidden countries · kids profile → Settings → Kids mode.
 
 <p>
   <img src="images/en/27-detskij-rezhim.jpg" width="49%" alt="Kids mode">
   <img src="images/en/28-skrytye-strany.jpg" width="49%" alt="Hidden countries">
+  <img src="images/en/14e-detskaya-zapis.jpg" width="49%" alt="Kids profile and time limit">
+  <img src="images/en/14f-vremya-zakonchilos.jpg" width="49%" alt="Time is up for today">
 </p>
 
 <p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
@@ -278,10 +286,16 @@ The allowed age; the mode is protected with a PIN. Movies from chosen countries 
 <details>
 <summary><b>👥 Profiles</b></summary>
 
-«Who is watching?» — each profile has its own settings.
-**Where:** Menu → Profiles.
+«Who is watching?» — a profile is created on first launch, and each one has its own history, resume points, bookmarks,
+new episodes and all settings. Adult or kids (with an age). Signing in to sites happens inside a profile, if you want.
+A profile can also be created from a phone via a QR code.
+**Where:** Menu → Profiles · long press OK on a profile — edit.
 
 <img src="images/en/14-uchetnye-zapisi.jpg" width="100%" alt="Profiles">
+<p>
+  <img src="images/en/14c-sozdanie-zapisi.jpg" width="49%" alt="New profile">
+  <img src="images/en/14d-izmenit-zapis.jpg" width="49%" alt="Edit a profile">
+</p>
 
 <p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
 
@@ -367,7 +381,7 @@ license, the GitHub link and TMDB details are here too.
    - from your phone with **Send Files to TV**;
    - from a USB drive.
 3. Open the file and allow installing from unknown sources if Android asks.
-4. Accept the license agreement on first launch — and enjoy.
+4. On first launch, accept the license agreement and create a profile — and enjoy.
 
 **Questions and bugs** — in the app thread on 4PDA (will open on release day).
 

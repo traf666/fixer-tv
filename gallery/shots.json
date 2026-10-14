@@ -127,10 +127,38 @@
  },
  {
   "file": "14-uchetnye-zapisi.jpg",
-  "ru": "Учётные записи",
-  "en": "Profiles",
+  "ru": "Кто смотрит?",
+  "en": "Who is watching?",
   "ru_where": "Меню → Учётные записи",
   "en_where": "Menu → Profiles"
+ },
+ {
+  "file": "14c-sozdanie-zapisi.jpg",
+  "ru": "Новая учётная запись",
+  "en": "New profile",
+  "ru_where": "Кто смотрит? → Добавить",
+  "en_where": "Who is watching? → Add"
+ },
+ {
+  "file": "14d-izmenit-zapis.jpg",
+  "ru": "Изменить учётную запись",
+  "en": "Edit a profile",
+  "ru_where": "Кто смотрит? → долгое «ОК» на записи",
+  "en_where": "Who is watching? → long press OK on a profile"
+ },
+ {
+  "file": "14e-detskaya-zapis.jpg",
+  "ru": "Детская запись и лимит времени",
+  "en": "Kids profile and time limit",
+  "ru_where": "Детская запись → Настройки → Детский режим",
+  "en_where": "Kids profile → Settings → Kids mode"
+ },
+ {
+  "file": "14f-vremya-zakonchilos.jpg",
+  "ru": "Время на сегодня закончилось",
+  "en": "Time is up for today",
+  "ru_where": "Детская запись, когда лимит вышел",
+  "en_where": "Kids profile when the limit runs out"
  },
  {
   "file": "20-vneshnij-vid.jpg",
