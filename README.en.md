@@ -26,7 +26,7 @@
 <p align="center">
   <a href="https://github.com/traf666/fixer-tv/releases/latest"><img src="https://img.shields.io/badge/Download-64--bit-4C8BF5?style=for-the-badge&logo=android&logoColor=white" alt="Download — 64-bit"></a>
   <a href="https://github.com/traf666/fixer-tv/releases/latest"><img src="https://img.shields.io/badge/Download-32--bit-4C8BF5?style=for-the-badge&logo=android&logoColor=white" alt="Download — 32-bit"></a>
-  <img src="https://img.shields.io/badge/%F0%9F%92%AC_Discussion_on_4PDA-soon-6E7681?style=for-the-badge" alt="Discussion on 4PDA — soon">
+  <a href="https://4pda.to/forum/index.php?showtopic=1127834"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Discussion-on_4PDA-F57C00?style=for-the-badge" alt="Discussion on 4PDA"></a>
 </p>
 
 <p align="center">
@@ -383,7 +383,7 @@ license, the GitHub link and TMDB details are here too.
 3. Open the file and allow installing from unknown sources if Android asks.
 4. On first launch, accept the license agreement and create a profile — and enjoy.
 
-**Questions and bugs** — in the app thread on 4PDA (opening soon).
+**Questions and bugs** — in the [app thread on 4PDA](https://4pda.to/forum/index.php?showtopic=1127834).
 
 **Updates:** Settings → About → App update. The app downloads the new version from this page and checks the file
 signature and checksum before installing.
