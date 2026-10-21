@@ -256,7 +256,8 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 <summary><b>🧲 Torrents</b></summary>
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
-About 5 minutes of video ahead are buffered on the device storage and deleted after watching. The «Torrents» window has a
+A few minutes of video ahead are buffered; you choose where: on the device storage, in memory or in your own folder
+(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
 filter by quality, size and voice-over. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
