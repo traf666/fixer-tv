@@ -208,7 +208,9 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <summary><b>▶️ Player</b></summary>
 
 The player panel: source and voice-over, subtitles, speed (up to 1.75×), volume boost (up to +20 dB), zoom, sleep timer, «ends at …», and for series — next episode
-and intro skip. Player settings have their own section.
+and intro skip. Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
+(in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
+the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
 **Where:** while watching — Down · Settings → Player.
 
 <img src="images/en/05-pleer.jpg" width="100%" alt="Player">
