@@ -77,7 +77,8 @@ and sit through their ads.
   look up or check by hand.
 - **Completely free.** No ads, no subscriptions, no paid tiers — everything is open to everyone.
 - **Switches sources by itself.** If a video does not start or stops midway, the app continues in the next source from
-  the same moment. Nothing to pick by hand.
+  the same moment. Nothing to pick by hand. Once a day the app checks the sources on fresh films and episodes and measures
+  how fast the video goes — slow ones are tried after fast ones.
 - **Torrents with no setup.** TorrServer is built in and starts by itself — no separate app to install. About 5 minutes
   of video ahead are buffered on the device storage, sized by the file size and film length: seeking inside the buffer
   is almost instant, and the buffer is deleted after watching. Have your own TorrServer — enter its address; if it does not
