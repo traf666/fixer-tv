@@ -98,7 +98,7 @@ Tap an item to open its description with a screenshot and the path in the app.
 
 - 🎬 [**Catalog**](#f-catalog) — new releases, movies, series, cartoons and anime; filters (including any set of years) and sorting.
 - 🔎 [**Search**](#f-search) by title, with suggestions and recent queries; you can type from your phone via QR.
-- 🎞️ [**Movie page**](#f-page) — description, rating, cast, trailer, bookmarks.
+- 🎞️ [**Movie page**](#f-page) — description, rating, cast, franchise parts, trailer, bookmarks.
 - 🔀 [**Several video sources**](#f-sources) — quality and number of voice-overs at a glance; if one fails, the app takes the next.
 - 📂 [**Seasons, episodes and voice-overs**](#f-episodes) — episode sorting, watched marks, voice-over shares.
 - ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume boost, zoom, sleep timer, intro skip.
@@ -157,7 +157,7 @@ button shows a QR — you type the text on your phone.
 <summary><b>🎞️ Movie page</b></summary>
 
 A large poster, description, rating, the «Continue» bar and buttons: download, torrents, source, bookmarks, trailer,
-rate. From the page — the actor page with their movies.
+rate. From the page — the actor page with their movies; films of a series get a «Franchise parts» row with the other films in release order.
 **Where:** tile → OK.
 
 <img src="images/en/03-kartochka.jpg" width="100%" alt="Movie page">
