@@ -107,7 +107,7 @@ Tap an item to open its description with a screenshot and the path in the app.
 - 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, filter by quality, size and voice-over; built-in or your own TorrServer.
 - 🧒 [**Kids mode**](#f-kids) with a PIN, kids profiles with a time limit, hidden countries.
 - 👥 [**Profiles**](#f-profiles) — for everyone in the family: own history, bookmarks and settings.
-- 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, three text sizes, number of columns, language.
+- 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, three text sizes, number of columns, captions on the poster or below it, language.
 - 📱 [**Web panel**](#f-panel) — settings from your phone on the home network.
 - 💾 [**Backup**](#f-backup) of history, bookmarks and settings — to a folder or a USB drive.
 - 🔄 [**Updates itself**](#f-update) — every update is checked by signature.
@@ -316,7 +316,8 @@ A profile can also be created from a phone via a QR code.
 <details>
 <summary><b>🎨 Appearance</b></summary>
 
-Theme (5 options, including a light one), highlight color, text size (three steps), number of columns, language, splash screen and
+Theme (5 options, including a light one), highlight color, text size (three steps), number of columns, tile title and
+"year · genre" on the poster or below it, language, splash screen and
 what the menu shows.
 **Where:** Settings → Appearance · Home and menu · Splash screen.
 
