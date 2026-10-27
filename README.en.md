@@ -157,7 +157,7 @@ button shows a QR — you type the text on your phone.
 <summary><b>🎞️ Movie page</b></summary>
 
 A large poster, description, rating, the «Continue» bar and buttons: download, torrents, source, bookmarks, trailer,
-rate. From the page — the actor page with their movies; films of a series get a «Franchise parts» row with the other films in release order.
+rate. An «Actors and directors» row with photos and roles leads to the actor page with their movies; a «Similar» row; films of a series get a «Franchise parts» row with the other films in release order.
 **Where:** tile → OK.
 
 <img src="images/en/03-kartochka.jpg" width="100%" alt="Movie page">
@@ -209,7 +209,7 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <summary><b>▶️ Player</b></summary>
 
 The player panel: source and voice-over, subtitles, speed (up to 1.75×), volume boost (up to +20 dB), zoom, sleep timer, «ends at …», and for series — next episode
-and intro skip. Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
+and intro skip (auto or with the Skip button). Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
 **Where:** while watching — Down · Settings → Player.
@@ -228,7 +228,7 @@ the system; the TV was turned off in the middle of a movie — after turning on,
 <details>
 <summary><b>⏯️ Continue watching, Bookmarks, Updates</b></summary>
 
-Resume where you stopped; bookmarks in your own folders; new episodes of bookmarked series.
+Resume where you stopped, a finished episode moves on to the next released one; bookmarks in your own folders; new episodes of bookmarked series.
 **Where:** Menu → Continue watching · Bookmarks · Updates.
 
 <img src="images/en/10-dosmotret.jpg" width="100%" alt="Continue watching">
@@ -259,7 +259,7 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 <summary><b>🧲 Torrents</b></summary>
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
-A few minutes of video ahead are buffered; you choose where: on the device storage, in memory or in your own folder
+A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
 (for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
 filter by quality, size and voice-over. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
