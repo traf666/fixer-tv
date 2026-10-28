@@ -73,12 +73,13 @@ and sit through their ads.
   the same moment. A source closed or went paid — your history stays. Backup included.
 - 🔔 **Tells you about new episodes by itself.** The app checks series from your bookmarks, plus the ones you started or
   finished, on its own — each one every hour. When a new episode is out and a source already has it with a voice-over, the
-  series appears in the «Updates» section of the app and in the «Updates» row on the Android TV home screen. Nothing to
+  series appears in the «New episodes» section of the app and in the «New episodes» row on the Android TV home screen. Nothing to
   look up or check by hand.
 - **Completely free.** No ads, no subscriptions, no paid tiers — everything is open to everyone.
 - **Switches sources by itself.** If a video does not start or stops midway, the app continues in the next source from
   the same moment. Nothing to pick by hand. Once a day the app checks the sources on fresh films and episodes and measures
-  how fast the video goes — slow ones are tried after fast ones.
+  how fast the video goes — slow ones are tried after fast ones. If the video gets
+  slower than needed while watching, the app switches to a faster route from the same spot by itself.
 - **Torrents with no setup.** TorrServer is built in and starts by itself — no separate app to install. About 5 minutes
   of video ahead are buffered on the device storage, sized by the file size and film length: seeking inside the buffer
   is almost instant, and the buffer is deleted after watching. Have your own TorrServer — enter its address; if it does not
@@ -102,7 +103,7 @@ Tap an item to open its description with a screenshot and the path in the app.
 - 🔀 [**Several video sources**](#f-sources) — quality and number of voice-overs at a glance; if one fails, the app takes the next.
 - 📂 [**Seasons, episodes and voice-overs**](#f-episodes) — episode sorting, watched marks, voice-over shares.
 - ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume boost, zoom, sleep timer, intro skip.
-- ⏯️ [**Continue watching, Bookmarks, Updates**](#f-continue) — resume where you stopped, your own folders, new episodes.
+- ⏯️ [**Continue watching, Bookmarks, New episodes**](#f-continue) — resume where you stopped, your own folders, new episodes.
 - ⬇️ [**Downloads**](#f-downloads) — save a movie or an episode and watch offline.
 - 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, filter by quality, size and voice-over; built-in or your own TorrServer.
 - 🧒 [**Kids mode**](#f-kids) with a PIN, kids profiles with a time limit, hidden countries.
@@ -226,15 +227,15 @@ the system; the TV was turned off in the middle of a movie — after turning on,
 
 <a id="f-continue"></a>
 <details>
-<summary><b>⏯️ Continue watching, Bookmarks, Updates</b></summary>
+<summary><b>⏯️ Continue watching, Bookmarks, New episodes</b></summary>
 
 Resume where you stopped, a finished episode moves on to the next released one; bookmarks in your own folders; new episodes of bookmarked series.
-**Where:** Menu → Continue watching · Bookmarks · Updates.
+**Where:** Menu → Continue watching · Bookmarks · New episodes.
 
 <img src="images/en/10-dosmotret.jpg" width="100%" alt="Continue watching">
 <p>
   <img src="images/en/11-zakladki.jpg" width="49%" alt="Bookmarks">
-  <img src="images/en/12-obnovleniya.jpg" width="49%" alt="Updates">
+  <img src="images/en/12-obnovleniya.jpg" width="49%" alt="New episodes">
 </p>
 
 <p align="right"><a href="#features">↑ to features</a> · <a href="#top">⬆️ back to top</a></p>
@@ -260,7 +261,7 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
-(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
+(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
 filter by quality, size and voice-over. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
@@ -280,7 +281,7 @@ shown; if it fails, the app suggests a neighbouring one.
 The allowed age; the mode is protected with a PIN. Movies from chosen countries can be hidden.
 A kids profile always has kids mode on: time per day and allowed hours; a warning 5 minutes before the end, and only
 an adult with the PIN can extend the time or switch the profile.
-**Where:** Settings → Kids mode · Settings → Hidden countries · kids profile → Settings → Kids mode.
+**Where:** Settings → Kids mode · Settings → Hidden · kids profile → Settings → Kids mode.
 
 <p>
   <img src="images/en/27-detskij-rezhim.jpg" width="49%" alt="Kids mode">
@@ -319,7 +320,7 @@ A profile can also be created from a phone via a QR code.
 Theme (5 options, including a light one), highlight color, text size (three steps), number of columns, tile title and
 "year · genre" on the poster or below it, language, splash screen and
 what the menu shows.
-**Where:** Settings → Appearance · Home and menu · Splash screen.
+**Where:** Settings → Appearance · Home and menu.
 
 <p>
   <img src="images/en/20-vneshnij-vid.jpg" width="49%" alt="Appearance">
