@@ -102,10 +102,10 @@ Tap an item to open its description with a screenshot and the path in the app.
 - 🎞️ [**Movie page**](#f-page) — description, rating, cast, franchise parts, trailer, bookmarks.
 - 🔀 [**Several video sources**](#f-sources) — quality and number of voice-overs at a glance; if one fails, the app takes the next.
 - 📂 [**Seasons, episodes and voice-overs**](#f-episodes) — episode sorting, watched marks, voice-over shares.
-- ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume boost, zoom, sleep timer, intro skip.
+- ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume levelling and boost, zoom, sleep timer, intro skip.
 - ⏯️ [**Continue watching, Bookmarks, New episodes**](#f-continue) — resume where you stopped, your own folders, new episodes.
 - ⬇️ [**Downloads**](#f-downloads) — save a movie or an episode and watch offline.
-- 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, filter by quality, size and voice-over; built-in or your own TorrServer.
+- 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, filter by quality, size, voice-over and date; built-in or your own TorrServer.
 - 🧒 [**Kids mode**](#f-kids) with a PIN, kids profiles with a time limit, hidden countries.
 - 👥 [**Profiles**](#f-profiles) — for everyone in the family: own history, bookmarks and settings.
 - 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, three text sizes, number of columns, captions on the poster or below it, language.
@@ -209,7 +209,7 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <details>
 <summary><b>▶️ Player</b></summary>
 
-The player panel: source and voice-over, subtitles, speed (up to 1.75×), volume boost (up to +20 dB), zoom, sleep timer, «ends at …», and for series — next episode
+The player panel: source and voice-over, subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB), zoom, sleep timer, «ends at …», and for series — next episode
 and intro skip (auto or with the Skip button). Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
@@ -262,7 +262,7 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
 (for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
-filter by quality, size and voice-over. You can set your own TorrServer and your own torrent search (Jackett or
+filter by quality, size, voice-over and release date, sorted by seeds or newest first. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
 shown; if it fails, the app suggests a neighbouring one.
