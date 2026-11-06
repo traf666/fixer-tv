@@ -157,8 +157,9 @@ button shows a QR — you type the text on your phone.
 <details>
 <summary><b>🎞️ Movie page</b></summary>
 
-A large poster, description, rating, the «Continue» bar and buttons: download, torrents, source, bookmarks, trailer,
+A large poster, description, rating, and for series a status line: airing or ended, how many episodes are out, when the next one comes. The main button shows what will play: source, voice-over and quality. The «Continue» bar and icons: download, «Where to watch» (sources and torrent releases), «Description», reviews, bookmarks, trailer,
 rate. An «Actors and directors» row with photos and roles leads to the actor page with their movies; a «Similar» row; films of a series get a «Franchise parts» row with the other films in release order.
+Long OK on a tile → «Select»: several titles at once, to mark as watched or sort into bookmark folders.
 **Where:** tile → OK.
 
 <img src="images/en/03-kartochka.jpg" width="100%" alt="Movie page">
@@ -177,7 +178,7 @@ rate. An «Actors and directors» row with photos and roles leads to the actor p
 
 The «Sources» window shows where the movie is available, how many voice-overs and what quality. If a video does not
 start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now.
-**Where:** Movie page → Source · Settings → Sources.
+**Where:** Movie page → Where to watch · Settings → Sources.
 
 <img src="images/en/04-istochniki.jpg" width="100%" alt="Movie sources">
 <p>
@@ -209,7 +210,7 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <details>
 <summary><b>▶️ Player</b></summary>
 
-The player panel: source and voice-over, subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB), zoom, sleep timer, «ends at …», and for series — next episode
+The player panel: source and voice-over, subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», and for series — next episode
 and intro skip (auto or with the Skip button). Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
@@ -262,11 +263,11 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
 (for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
-filter by quality, size, voice-over and release date, sorted by seeds or newest first. You can set your own TorrServer and your own torrent search (Jackett or
+filter by quality, size, voice-over, season and release date, sorting by seeds, date and size. If the main search does not respond, the app searches backup sites. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
 shown; if it fails, the app suggests a neighbouring one.
-**Where:** Movie page → Source → Torrents · Settings → Torrents.
+**Where:** Movie page → Where to watch → Torrents · Settings → Torrents.
 
 <img src="images/en/29b-torrenty-nastrojki.jpg" width="100%" alt="Torrents">
 
