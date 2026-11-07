@@ -144,7 +144,7 @@ years (any set with checkboxes), genre and rating. A long Right on a tile opens 
 <summary><b>🔎 Search</b></summary>
 
 Suggestions as you type, recent queries and result tiles. The keyboard opens right away; the «Type on phone»
-button shows a QR — you type the text on your phone.
+button shows a QR — you type the text on your phone. You can also search from other apps: results open right away.
 **Where:** Menu → Search.
 
 <img src="images/en/02-poisk.jpg" width="100%" alt="Search">
@@ -211,7 +211,7 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <summary><b>▶️ Player</b></summary>
 
 The player panel: source and voice-over, subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», and for series — next episode
-and intro skip (auto or with the Skip button). Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
+and intro skip (auto or with the Skip button; for anime — by AniLibria marks and the AniSkip database). The seek bar works with a mouse and touch. Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
 **Where:** while watching — Down · Settings → Player.
@@ -230,7 +230,7 @@ the system; the TV was turned off in the middle of a movie — after turning on,
 <details>
 <summary><b>⏯️ Continue watching, Bookmarks, New episodes</b></summary>
 
-Resume where you stopped, a finished episode moves on to the next released one; bookmarks in your own folders; new episodes of bookmarked series.
+Resume where you stopped, a finished episode moves on to the next released one; bookmarks in your own folders; new episodes of bookmarked series. A tile shows its folder badge; «Filter and order» in any section can filter by folder.
 **Where:** Menu → Continue watching · Bookmarks · New episodes.
 
 <img src="images/en/10-dosmotret.jpg" width="100%" alt="Continue watching">
@@ -262,7 +262,7 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
-(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves. The «Torrents» window has a
+(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves; a DVD in several parts plays the whole film in a row. The «Torrents» window has a
 filter by quality, size, voice-over, season and release date, sorting by seeds, date and size. If the main search does not respond, the app searches backup sites. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
