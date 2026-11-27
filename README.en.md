@@ -126,7 +126,7 @@ Tap an item to open its description with a screenshot and the path in the app.
 <summary><b>🎬 Catalog</b></summary>
 
 Home is a grid of poster tiles. The section menu is on the left; «Filter and order» picks the collection, type, country,
-years (any set with checkboxes), genre and rating. A long Right on a tile opens the filter right away.
+years (any set with checkboxes), genre, rating and hides unreleased titles. A long Right on a tile opens the filter right away. The Android TV home screen can show both «New episodes» and «Main» channels.
 **Where:** Home · menu — Left · Home → Filter and order.
 
 <img src="images/en/01-glavnaya.jpg" width="100%" alt="Home">
@@ -143,9 +143,8 @@ years (any set with checkboxes), genre and rating. A long Right on a tile opens 
 <details>
 <summary><b>🔎 Search</b></summary>
 
-Suggestions as you type, recent queries and result tiles. The keyboard opens right away; the «Type on phone»
-button shows a QR — you type the text on your phone. You can also search from other apps: results open right away.
-**Where:** Menu → Search.
+Suggestions as you type, recent queries and result tiles across the full width. Voice search and «Type on phone» via a QR code; initial search focus can be configured. You can also search from other apps: results open right away.
+**Where:** Menu → Search · Settings → Home and menu.
 
 <img src="images/en/02-poisk.jpg" width="100%" alt="Search">
 
@@ -157,8 +156,7 @@ button shows a QR — you type the text on your phone. You can also search from 
 <details>
 <summary><b>🎞️ Movie page</b></summary>
 
-A large poster, description, rating, and for series a status line: airing or ended, how many episodes are out, when the next one comes. The main button shows what will play: source, voice-over and quality. The «Continue» bar and icons: download, «Where to watch» (sources and torrent releases), «Description», reviews, bookmarks, trailer,
-rate. An «Actors and directors» row with photos and roles leads to the actor page with their movies; a «Similar» row; films of a series get a «Franchise parts» row with the other films in release order.
+A large poster, description, rating, and for series a status line: airing or ended, how many episodes are out, when the next one comes. The main button shows what will play: source, voice-over and quality. The «Continue» bar and icons: download, «Where to watch» (sources and torrent releases), «Search torrents», «Description», reviews (with hidden spoilers), bookmarks, trailer, rate. Card buttons and bottom rows can be customized in «Settings → Home and menu». An «Actors and directors» row with photos and roles leads to the actor page with tabs, sorting and biography; a «Similar» row; films of a series get a «Franchise parts» row with the other films in release order; long rows include an «All · N» button for a full grid.
 Long OK on a tile → «Select»: several titles at once, to mark as watched or sort into bookmark folders.
 **Where:** tile → OK.
 
@@ -176,8 +174,7 @@ Long OK on a tile → «Select»: several titles at once, to mark as watched or 
 <details>
 <summary><b>🔀 Several video sources</b></summary>
 
-The «Sources» window shows where the movie is available, how many voice-overs and what quality. If a video does not
-start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now.
+The «Sources» window shows where the movie is available, how many voice-overs and what quality (long OK picks a quality for that playback). If a video does not start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now, their order and favorite voice-overs (marked with «★»).
 **Where:** Movie page → Where to watch · Settings → Sources.
 
 <img src="images/en/04-istochniki.jpg" width="100%" alt="Movie sources">
@@ -210,8 +207,8 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <details>
 <summary><b>▶️ Player</b></summary>
 
-The player panel: source and voice-over, subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», and for series — next episode
-and intro skip (auto or with the Skip button; for anime — by AniLibria marks and the AniSkip database). The seek bar works with a mouse and touch; Bluetooth headphone buttons work like the remote's media buttons. Player settings have their own section. The built-in player's video buffer — in memory or on the TV box disk
+The player panel: source and voice-over (long OK picks a specific quality), subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», «To start», and for series — next episode
+and intro skip (auto or with the Skip button; for anime — by AniLibria marks and the AniSkip database). Bar buttons and their order are customizable, and hold-seek behavior (smooth, with acceleration, step repeat) and speed can be chosen; seek thumbnails and double-Back exit are available. The built-in player handles video files and links from other apps via «Open with». Player settings are organized into «General», «Built-in player» and «VLC player». The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
 **Where:** while watching — Down · Settings → Player.
@@ -262,11 +259,11 @@ A movie or an episode is saved by the built-in downloader to the folder you choo
 
 Releases appear as the «Torrents» row in the «Sources» window. TorrServer is built into the app and starts by itself.
 A few minutes of video ahead are buffered (on disk or in a folder — 5 to 30 min, your choice); you choose where: on the device storage, in memory or in your own folder
-(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves; a DVD in several parts plays the whole film in a row. The «Torrents» window has a
-filter by quality, size, voice-over, season and release date, sorting by seeds, date and size. If the main search does not respond, the app searches backup sites. You can set your own TorrServer and your own torrent search (Jackett or
+(for example, a flash drive), with a 1–8 GB limit; the buffer is deleted after watching. If a torrent has no peers for 15 s, the app takes the next one by itself. Subtitles from the release (.srt, .ass) are added by themselves; a DVD in several parts plays the whole film in a row. The «Torrents» window has parsed release tags and a
+filter by quality, «Original/Eng», «HDR / SDR», size (including manual From–To), voice-over, season and release date, sorting by seeds, date and size. If the main search does not respond, the app searches backup sites. You can set your own TorrServer and your own torrent search (Jackett or
 JacRed) — the lists are merged without duplicates. Releases are searched on all search sites at once, by the film's
 number and by title; those without Russian audio go to the end. While a release sends its file list, the wait progress is
-shown; if it fails, the app suggests a neighbouring one. While a release gets ready, its speed is shown and whether it keeps up. A release can be saved in TorrServer (long-press OK in the «Torrents» window); then the menu gets a «Torrents» section with all TorrServer releases.
+shown; if it fails, the app suggests a neighbouring one. While a release gets ready (including before launching an external player), its speed, peers and whether it keeps up are shown. A release can be saved in TorrServer (long-press OK in the «Torrents» window); then the menu gets a «Torrents» section with all TorrServer releases.
 **Where:** Movie page → Where to watch → Torrents · Settings → Torrents.
 
 <img src="images/en/29b-torrenty-nastrojki.jpg" width="100%" alt="Torrents">
