@@ -99,16 +99,16 @@ Tap an item to open its description with a screenshot and the path in the app.
 
 - 🎬 [**Catalog**](#f-catalog) — new releases, movies, series, cartoons and anime; filters (including any set of years) and sorting.
 - 🔎 [**Search**](#f-search) by title, with suggestions and recent queries; you can type from your phone via QR.
-- 🎞️ [**Movie page**](#f-page) — description, rating, cast, franchise parts, trailer, bookmarks.
-- 🔀 [**Several video sources**](#f-sources) — quality and number of voice-overs at a glance; if one fails, the app takes the next.
+- 🎞️ [**Movie page**](#f-page) — description, TMDB, Kinopoisk and IMDb ratings, cast, franchise parts, reviews, Rutube trailers, bookmarks.
+- 🔀 [**Several video sources**](#f-sources) — movies, series and anime; quality and number of voice-overs at a glance; if one fails, the app takes the next.
 - 📂 [**Seasons, episodes and voice-overs**](#f-episodes) — episode sorting, watched marks, voice-over shares.
-- ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume levelling and boost, zoom, sleep timer, intro skip.
+- ▶️ [**Player**](#f-player) — voice-over and source right in the player, subtitles, speed up to 1.75×, volume levelling, voice boost and sound boost, zoom, sleep timer, intro skip.
 - ⏯️ [**Continue watching, Bookmarks, New episodes**](#f-continue) — resume where you stopped, your own folders, new episodes.
 - ⬇️ [**Downloads**](#f-downloads) — save a movie or an episode and watch offline.
 - 🧲 [**Torrents**](#f-torrents) — releases right on the movie page, filter by quality, size, voice-over and date; built-in or your own TorrServer.
 - 🧒 [**Kids mode**](#f-kids) with a PIN, kids profiles with a time limit, hidden countries.
 - 👥 [**Profiles**](#f-profiles) — for everyone in the family: own history, bookmarks and settings.
-- 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, three text sizes, number of columns, captions on the poster or below it, language.
+- 🎨 [**Appearance**](#f-look) — 5 themes, highlight color, three text sizes, number of columns, poster ratings, captions on the poster or below it, language.
 - 📱 [**Web panel**](#f-panel) — settings from your phone on the home network.
 - 💾 [**Backup**](#f-backup) of history, bookmarks and settings — to a folder or a USB drive.
 - 🔄 [**Updates itself**](#f-update) — every update is checked by signature.
@@ -126,8 +126,8 @@ Tap an item to open its description with a screenshot and the path in the app.
 <summary><b>🎬 Catalog</b></summary>
 
 Home is a grid of poster tiles. The section menu is on the left; «Filter and order» picks the collection, type, country,
-years (any set with checkboxes), genre, rating and hides unreleased titles. A long Right on a tile opens the filter right away. The Android TV home screen can show both «New episodes» and «Main» channels.
-**Where:** Home · menu — Left · Home → Filter and order.
+years (any set with checkboxes), genre, rating and hides unreleased titles; long OK in the filter panel applies the choice immediately without closing the panel. A long Right on a tile opens the filter right away. The Back button behavior in root sections can be configured: exit right away (double Back) or open the left menu first. The Android TV home screen can show both «New episodes» and «Main» channels.
+**Where:** Home · menu — Left · Home → Filter and order · Settings → Home and menu.
 
 <img src="images/en/01-glavnaya.jpg" width="100%" alt="Home">
 <p>
@@ -143,7 +143,7 @@ years (any set with checkboxes), genre, rating and hides unreleased titles. A lo
 <details>
 <summary><b>🔎 Search</b></summary>
 
-Suggestions as you type, recent queries and result tiles across the full width. Voice search and «Type on phone» via a QR code; initial search focus can be configured. You can also search from other apps: results open right away.
+Suggestions as you type, recent queries and two layouts to choose from in settings: «Search A» (result tiles below across the full width) or «Search B» (tiles on the right so the on-screen keyboard does not cover results). Long OK in the search box opens the clipboard menu (clear, copy, cut, paste). Voice search (including Android TV 14) and «Type on phone» via a QR code; initial search focus can be configured. You can also search from other apps: results open right away.
 **Where:** Menu → Search · Settings → Home and menu.
 
 <img src="images/en/02-poisk.jpg" width="100%" alt="Search">
@@ -156,7 +156,7 @@ Suggestions as you type, recent queries and result tiles across the full width. 
 <details>
 <summary><b>🎞️ Movie page</b></summary>
 
-A large poster, description, rating, and for series a status line: airing or ended, how many episodes are out, when the next one comes. The main button shows what will play: source, voice-over and quality. The «Continue» bar and icons: download, «Where to watch» (sources and torrent releases), «Search torrents», «Description», reviews (with hidden spoilers), bookmarks, trailer, rate. Card buttons and bottom rows can be customized in «Settings → Home and menu». An «Actors and directors» row with photos and roles leads to the actor page with tabs, sorting and biography; a «Similar» row; films of a series get a «Franchise parts» row with the other films in release order; long rows include an «All · N» button for a full grid.
+A large poster (classic layout by default or compact «Auto fit» in «Settings → Appearance»), description, TMDB, Kinopoisk and IMDb ratings, and for series a status line: airing or ended, how many episodes are out, when the next one comes. The main button shows what will play: source, voice-over and quality. The «Continue» bar and icons: download, «Where to watch» (sources and torrent releases), «Search torrents», «Description», reviews (including Filmix and Seasonvar without sign-in, with hidden spoilers), bookmarks, trailer (including Rutube right in the built-in player without YouTube), rate. Card buttons and bottom rows can be customized in «Settings → Home and menu». An «Actors and directors» row with photos and roles leads to the actor page with tabs, sorting and biography; a «Similar» row; films of a series get an extended «Franchise parts» row (with Wikidata support) in release order; long rows include an «All · N» button for a full grid.
 Long OK on a tile → «Select»: several titles at once, to mark as watched or sort into bookmark folders.
 **Where:** tile → OK.
 
@@ -174,7 +174,7 @@ Long OK on a tile → «Select»: several titles at once, to mark as watched or 
 <details>
 <summary><b>🔀 Several video sources</b></summary>
 
-The «Sources» window shows where the movie is available, how many voice-overs and what quality (long OK picks a quality for that playback). If a video does not start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now, their order and favorite voice-overs (marked with «★»).
+The «Sources» window shows where the movie is available, how many voice-overs and what quality (long OK picks a quality for that playback). A wide set of free sources is supported for movies, series (including Vibix and others) and anime (AniLibria, AniBoom, AniDub, DreamCast, Kodik, AnimeVost and others). If a video does not start or stops midway, the app continues in the next source from the same moment. Settings show which sources work now, their order and favorite voice-overs (marked with «★»).
 **Where:** Movie page → Where to watch · Settings → Sources.
 
 <img src="images/en/04-istochniki.jpg" width="100%" alt="Movie sources">
@@ -207,8 +207,8 @@ Seasons, episode order, how much is left to watch. Voice-overs — with their sh
 <details>
 <summary><b>▶️ Player</b></summary>
 
-The player panel: source and voice-over (long OK picks a specific quality), subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort) or volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», «To start», and for series — next episode
-and intro skip (auto or with the Skip button; for anime — by AniLibria marks and the AniSkip database). Bar buttons and their order are customizable, and hold-seek behavior (smooth, with acceleration, step repeat) and speed can be chosen; seek thumbnails and double-Back exit are available. The built-in player handles video files and links from other apps via «Open with». Player settings are organized into «General», «Built-in player» and «VLC player». The built-in player's video buffer — in memory or on the TV box disk
+The player panel: source and voice-over (long OK picks a specific quality), subtitles, speed (up to 1.75×), «Level volume» (default: quiet films louder, loud parts do not distort), voice boost (separate modes for 5.1 and stereo with zero audio delay) or general volume boost (up to +20 dB; the «Volume» button changes it during playback), zoom, sleep timer, «ends at …», «To start», and for series — next episode
+and intro skip (auto or with the Skip button; for anime — by AniLibria marks and the AniSkip database). Bar buttons and their order are customizable, and hold-seek behavior (smooth, with acceleration, step repeat) and speed can be chosen; seek thumbnails and double-Back exit are available. The built-in player handles video files and links from other apps via «Open with», and VLC supports streams with a Referer header directly. Player settings are organized into «General», «Built-in player» and «VLC player». The built-in player's video buffer — in memory or on the TV box disk
 (in your own folder, e.g. a USB stick), with the limit you choose. On pause the screen is not kept on — the TV screensaver starts as set in
 the system; the TV was turned off in the middle of a movie — after turning on, its card opens with «Continue».
 **Where:** while watching — Down · Settings → Player.
@@ -315,9 +315,9 @@ A profile can also be created from a phone via a QR code.
 <details>
 <summary><b>🎨 Appearance</b></summary>
 
-Theme (5 options, including a light one), highlight color, text size (three steps), number of columns, tile title and
-"year · genre" on the poster or below it, language, splash screen and
-what the menu shows.
+Theme (5 options, including a light one), highlight color, text size (three steps), number of columns, poster ratings (any combination of TMDB, Kinopoisk and IMDb, or off), movie card poster size («Large» or «Auto fit»), tile title and
+"year · genre" on the poster or below it, language, splash screen,
+what the menu shows, card buttons and rows, search layout and Back button behavior.
 **Where:** Settings → Appearance · Home and menu.
 
 <p>
@@ -353,7 +353,7 @@ use “Paired phones” on the TV.
 <details>
 <summary><b>💾 Backup and restore</b></summary>
 
-A copy of history, bookmarks and settings — by hand or automatically, to any folder or a USB drive; restore from there.
+A copy of history, bookmarks and settings — by hand or automatically, to any folder or a USB drive, with a configurable number of kept backups (from 1 latest to 7 latest and 4 weekly); restore from there.
 **Where:** Settings → Backup and restore.
 
 <img src="images/en/33-bekap.jpg" width="100%" alt="Backup">
